@@ -1,0 +1,30 @@
+C:\Users\gilsi\Desktop\API\API\bin\Debug\netcoreapp2.2\API.deps.json
+C:\Users\gilsi\Desktop\API\API\bin\Debug\netcoreapp2.2\API.runtimeconfig.json
+C:\Users\gilsi\Desktop\API\API\bin\Debug\netcoreapp2.2\API.runtimeconfig.dev.json
+C:\Users\gilsi\Desktop\API\API\bin\Debug\netcoreapp2.2\API.dll
+C:\Users\gilsi\Desktop\API\API\bin\Debug\netcoreapp2.2\API.pdb
+C:\Users\gilsi\Desktop\API\API\obj\Debug\netcoreapp2.2\API.csproj.CoreCompileInputs.cache
+C:\Users\gilsi\Desktop\API\API\obj\Debug\netcoreapp2.2\API.RazorAssemblyInfo.cache
+C:\Users\gilsi\Desktop\API\API\obj\Debug\netcoreapp2.2\API.RazorAssemblyInfo.cs
+C:\Users\gilsi\Desktop\API\API\obj\Debug\netcoreapp2.2\API.AssemblyInfoInputs.cache
+C:\Users\gilsi\Desktop\API\API\obj\Debug\netcoreapp2.2\API.AssemblyInfo.cs
+C:\Users\gilsi\Desktop\API\API\obj\Debug\netcoreapp2.2\API.RazorTargetAssemblyInfo.cache
+C:\Users\gilsi\Desktop\API\API\obj\Debug\netcoreapp2.2\API.dll
+C:\Users\gilsi\Desktop\API\API\obj\Debug\netcoreapp2.2\API.pdb
+C:\Users\gilsi\Desktop\API\API\bin\Debug\netcoreapp2.2\API.xml
+C:\Users\gilsi\Desktop\API\API\obj\Debug\netcoreapp2.2\API.csprojAssemblyReference.cache
+C:\Users\gilsi\Desktop\Files\ETEC 2º semestre 2019\DW III\API\API\bin\Debug\netcoreapp2.2\API.deps.json
+C:\Users\gilsi\Desktop\Files\ETEC 2º semestre 2019\DW III\API\API\bin\Debug\netcoreapp2.2\API.runtimeconfig.json
+C:\Users\gilsi\Desktop\Files\ETEC 2º semestre 2019\DW III\API\API\bin\Debug\netcoreapp2.2\API.runtimeconfig.dev.json
+C:\Users\gilsi\Desktop\Files\ETEC 2º semestre 2019\DW III\API\API\bin\Debug\netcoreapp2.2\API.dll
+C:\Users\gilsi\Desktop\Files\ETEC 2º semestre 2019\DW III\API\API\bin\Debug\netcoreapp2.2\API.pdb
+C:\Users\gilsi\Desktop\Files\ETEC 2º semestre 2019\DW III\API\API\bin\Debug\netcoreapp2.2\API.xml
+C:\Users\gilsi\Desktop\Files\ETEC 2º semestre 2019\DW III\API\API\obj\Debug\netcoreapp2.2\API.csprojAssemblyReference.cache
+C:\Users\gilsi\Desktop\Files\ETEC 2º semestre 2019\DW III\API\API\obj\Debug\netcoreapp2.2\API.csproj.CoreCompileInputs.cache
+C:\Users\gilsi\Desktop\Files\ETEC 2º semestre 2019\DW III\API\API\obj\Debug\netcoreapp2.2\API.RazorAssemblyInfo.cache
+C:\Users\gilsi\Desktop\Files\ETEC 2º semestre 2019\DW III\API\API\obj\Debug\netcoreapp2.2\API.RazorAssemblyInfo.cs
+C:\Users\gilsi\Desktop\Files\ETEC 2º semestre 2019\DW III\API\API\obj\Debug\netcoreapp2.2\API.AssemblyInfoInputs.cache
+C:\Users\gilsi\Desktop\Files\ETEC 2º semestre 2019\DW III\API\API\obj\Debug\netcoreapp2.2\API.AssemblyInfo.cs
+C:\Users\gilsi\Desktop\Files\ETEC 2º semestre 2019\DW III\API\API\obj\Debug\netcoreapp2.2\API.RazorTargetAssemblyInfo.cache
+C:\Users\gilsi\Desktop\Files\ETEC 2º semestre 2019\DW III\API\API\obj\Debug\netcoreapp2.2\API.dll
+C:\Users\gilsi\Desktop\Files\ETEC 2º semestre 2019\DW III\API\API\obj\Debug\netcoreapp2.2\API.pdb
