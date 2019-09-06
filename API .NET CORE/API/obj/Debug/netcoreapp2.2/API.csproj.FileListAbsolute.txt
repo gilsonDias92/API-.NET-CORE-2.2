@@ -42,3 +42,4 @@ C:\Users\gilsi\Desktop\Files\ETEC 2º semestre 2019\DW III\API\API .NET CORE\API
 C:\Users\gilsi\Desktop\Files\ETEC 2º semestre 2019\DW III\API\API .NET CORE\API\obj\Debug\netcoreapp2.2\API.RazorTargetAssemblyInfo.cache
 C:\Users\gilsi\Desktop\Files\ETEC 2º semestre 2019\DW III\API\API .NET CORE\API\obj\Debug\netcoreapp2.2\API.dll
 C:\Users\gilsi\Desktop\Files\ETEC 2º semestre 2019\DW III\API\API .NET CORE\API\obj\Debug\netcoreapp2.2\API.pdb
+C:\Users\gilsi\Desktop\Files\ETEC 2º semestre 2019\DW III\API\API .NET CORE\API\obj\Debug\netcoreapp2.2\API.csprojAssemblyReference.cache

@@ -4,8 +4,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using API.ExtensionsMethods;
 using Microsoft.EntityFrameworkCore;
 using API.Models;
+using API.Contracts.Request;
+using API.Validator;
+using API.Validator.Rules;
 
 namespace API.Controllers
 {
@@ -73,12 +77,32 @@ namespace API.Controllers
 
         // POST: api/Cliente
         [HttpPost]
-        public async Task<ActionResult<Client>> PostCliente(Client cliente)
+        public async Task<ActionResult<Client>> PostCliente(ClientCreateRequest cliente)
         {
-            _context.Cliente.Add(cliente);
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var validator = new ClientCreateRequestValidator();
+
+            if (!validator.IsValid(cliente))
+                return BadRequest(new { error = "Cliente inválido" });
+
+            var cli = cliente.ConvertContractToClient();
+
+            var modelValidator = new ClientCreateValidator(_context, cli);
+
+            var errors = modelValidator.IsValid();
+
+            if (errors.Count() > 0)
+                return BadRequest(new { error = errors});
+
+            if (!modelValidator.ExistingProduct())
+                return BadRequest(new { error = "Erro! Cliente existente." });
+
+            _context.Cliente.Add(cli);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetCliente", new { id = cliente.Id }, cliente);
+            return CreatedAtAction("GetCliente", new { id = cli.Id }, cli);
         }
 
         // DELETE: api/Cliente/5

@@ -26,5 +26,19 @@ namespace API.ExtensionsMethods
             }
             return prod;
         }
+
+        public static Client ConvertContractToClient(this ClientCreateRequest client)
+        {
+            var cli = new Client
+            {
+                Name = client.Name,
+                Email = client.Email,
+                Active = true
+            };
+            return cli;
+        }
+
+
+
     }
 }

@@ -77,7 +77,6 @@ namespace API.Controllers
 
         // POST: api/Product
         [HttpPost]
-
         public async Task<ActionResult<Product>> PostProduct([FromBody] ProductCreatRequest product)
         {
             if (!ModelState.IsValid)
