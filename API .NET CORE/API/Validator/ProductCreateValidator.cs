@@ -18,7 +18,6 @@ namespace API.Validator
 
         }
 
-
         public List<string> IsValid()
         {
             List<string> errors = new List<string>();
@@ -52,7 +51,6 @@ namespace API.Validator
             {
                 return false;
             }
-
             return true;
         }
     }

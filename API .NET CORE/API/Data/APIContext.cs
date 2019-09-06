@@ -12,7 +12,7 @@ using API.Models;
         {
         }
 
-        public DbSet<Cliente> Cliente { get; set; }
+        public DbSet<Client> Cliente { get; set; }
 
         public DbSet<API.Models.Product> Product { get; set; }
     }

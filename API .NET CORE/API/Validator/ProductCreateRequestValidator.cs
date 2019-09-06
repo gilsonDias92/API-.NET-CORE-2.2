@@ -21,9 +21,6 @@ namespace API.Validator
             if (double.IsNaN(prod.Price))
                 resposta = false;
 
-            if (!(prod.Quantity is int))
-                resposta = false;
-
             return resposta;
         }
     }

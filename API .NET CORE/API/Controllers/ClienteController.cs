@@ -22,14 +22,14 @@ namespace API.Controllers
 
         // GET: api/Cliente
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Cliente>>> GetCliente()
+        public async Task<ActionResult<IEnumerable<Client>>> GetCliente()
         {
             return await _context.Cliente.ToListAsync();
         }
 
         // GET: api/Cliente/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Cliente>> GetCliente(int id)
+        public async Task<ActionResult<Client>> GetCliente(int id)
         {
             var cliente = await _context.Cliente.FindAsync(id);
 
@@ -43,7 +43,7 @@ namespace API.Controllers
 
         // PUT: api/Cliente/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutCliente(int id, Cliente cliente)
+        public async Task<IActionResult> PutCliente(int id, Client cliente)
         {
             if (id != cliente.Id)
             {
@@ -73,7 +73,7 @@ namespace API.Controllers
 
         // POST: api/Cliente
         [HttpPost]
-        public async Task<ActionResult<Cliente>> PostCliente(Cliente cliente)
+        public async Task<ActionResult<Client>> PostCliente(Client cliente)
         {
             _context.Cliente.Add(cliente);
             await _context.SaveChangesAsync();
@@ -83,7 +83,7 @@ namespace API.Controllers
 
         // DELETE: api/Cliente/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult<Cliente>> DeleteCliente(int id)
+        public async Task<ActionResult<Client>> DeleteCliente(int id)
         {
             var cliente = await _context.Cliente.FindAsync(id);
             if (cliente == null)
