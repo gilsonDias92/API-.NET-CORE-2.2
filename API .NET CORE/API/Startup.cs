@@ -11,6 +11,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.EntityFrameworkCore;
 using Swashbuckle.AspNetCore.Swagger;
+using FluentValidation.AspNetCore;
 
 namespace API
 {
@@ -46,6 +47,10 @@ namespace API
                         }
                     });
             });
+
+            services.AddMvc()
+                .AddFluentValidation(fvc => fvc.RegisterValidatorsFromAssemblyContaining<Startup>());
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
